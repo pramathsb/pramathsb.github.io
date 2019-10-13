@@ -1,29 +1,145 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Basic example</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="googlebot" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <style type="text/css">
-        a {
-            background-color: powderblue;
-            transition: background-color .5s;
-        }
-
-        a:hover {
-            background-color: gold;
-        }
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pramath S.B | Front-End Developer Bengaluru</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNjeHu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    
+    <style>
+        html, body {height: 100%;}
+        body {font-family: 'Ubuntu', sans-serif; text-shadow: 4px 3px 0 rgba(0,0,0,.1);;background: url('i/bg.jpg');background-size: cover; background-repeat: no-repeat; background-position: top center;}
+        i {font-size: 64px; display: inline-block; padding: 20px 30px;}
+        img { display: inline-block; padding: 20px 30px 5px; box-sizing: content-box; max-width: 100px;}
+        hr {border-top: 1px solid rgba(235, 235, 235,.5);}
+        p {line-height: 1.8; font-size: 20px;}
+        a{color: #f0ad4e;} a:hover{color: #5bc0de; text-decoration: none;}
+        .jumbotron {background: rgba(0,0,0,.1);}
+        .modal-dialog {max-width: 90%;}
+        .row p {font-size: 16px;}
+        .nav-tabs .nav-link {font-size: 24px; padding: 10px 60px;}
     </style>
-
 </head>
 <body>
-    <a href="#">Try hovering over this link.</a>
-</body>
-</html>
-
-
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Pramath S.B</h1>
+            <div class="lead"><a data-toggle="modal" data-target="#skills" href="javascript:void(0)">Web Developer</a> &bull; <a href="https://www.flickr.com/photos/pramathsb" target="_blank">Railfan</a> &bull; <a href="https://https://www.youtube.com/user/pramathsb/videos" target="_blank">Movie Maker</a> &bull; <a href="https://www.instagram.com/pramathsb" target="_blank">Travel</a> &bull; <a href="https://www.instagram.com/pramathsb" target="_blank">Food</a></div>
+            <hr class="my-4">
+            <p>Welcome to my site...!!! 
+                Like watching trains 💛 Masala Doseh'<br>  
+                Yes, That's me in the background!</p>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="skills" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Web Development!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#home">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " data-toggle="tab" href="#profile">Skills</a>
+                            </li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content pt-4">
+                            <div class="tab-pane fade active show" id="home">
+                                <div class="row align-items-center text-center">
+                                    <div class="col-auto">
+                                        <a href="https://www.goindigo.in" target="_blank">
+                                            <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/homepage/header-logo/icIndigoLogoWhiteR.svg" alt="">
+                                            <p>Main Website</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="https://www.goindigo.in/booking/flight-select.html" target="_blank">
+                                            <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/homepage/header-logo/icIndigoLogoWhiteR.svg" alt="">
+                                            <p>Reservation</p>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="col-auto">
+                                        <a href="https://www.goindigo.in/lite/book-flight.html" target="_blank">
+                                            <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/homepage/header-logo/icIndigoLogoWhiteR.svg" alt="">
+                                            <p>PWA</p>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="col-auto">
+                                        <a href="">
+                                            <p>Hilton</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="profile">
+                                <div class="row align-items-center text-center">
+                                    <div class="col-auto"><i class="devicon-atom-original"></i></div>
+                                    <div class="col-auto"><i class="devicon-apache-line-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-babel-plain colored"></i></div>
+                                    <div class="col-auto"><i class="devicon-bitbucket-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-bootstrap-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-bower-line-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-confluence-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-firefox-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-gimp-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-foundation-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-git-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-github-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-gitlab-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-grunt-line-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-gulp-plain"></i></div>    
+                                    <div class="col-auto"><i class="devicon-html5-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-ie10-original"></i></div>
+                                    <div class="col-auto"><i class="devicon-illustrator-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-intellij-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-javascript-plain colored"></i></div>
+                                    <div class="col-auto"><i class="devicon-jquery-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-less-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-mysql-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-nginx-original"></i></div>
+                                    <div class="col-auto"><i class="devicon-nodejs-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-photoshop-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-react-original-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-safari-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-sass-original"></i></div>
+                                    <div class="col-auto"><i class="devicon-slack-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-sourcetree-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-trello-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-ubuntu-plain-wordmark"></i></div>
+                                    <div class="col-auto"><i class="devicon-webpack-plain"></i></div>
+                                    <div class="col-auto"><i class="devicon-windows8-original"></i></div>
+                                    <div class="col-auto"><i class="devicon-vim-plain"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    
+    
